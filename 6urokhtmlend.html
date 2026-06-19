@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>indeч</title>
+    
+    <style>
+        body {
+            text-align: center;
+            padding-top: 50px;
+        }
+        
+        .main-menu-text {
+            margin: 10px 0;
+        }
+        
+        .first-urok {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: rgb(255, 128, 82);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        
+        .first-urok:hover {
+            background: #0056b3;
+        }
+        
+        .congrats-icon {
+            font-size: 50px;
+            display: block;
+            margin-bottom: 15px;
+            color: #28a745;
+        }
+        
+        .sub-text {
+            color: #666;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <span class="congrats-icon">★★★★★★</span>
+    <h1 class="main-menu-text">УРААААА!</h1>
+    <p class="main-menu-text">Вы прошли все уроки</p>
+    <a class="first-urok" href="HTML-uchebnik.html">К тегам</a>
+
+    <script>
+        localStorage.setItem('lesson_3_completed', 'true');
+    </script>
+</body>
+</html>
